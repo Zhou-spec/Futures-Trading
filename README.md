@@ -13,3 +13,5 @@ The baseline model is adapted from [Deep Reinforcement Learning for Active High 
 The followings are some materials that I found useful. Some may be blogs written in Chinese but one can easily find an alternative in English. 
 1. [Explanation of TRPO (Chinese)](https://www.zhihu.com/question/366605427/answer/1048153125)
 2. [Deepen your Understanding of PPO (Chinese)](https://zhuanlan.zhihu.com/p/614115887)
+3. [DeepLOB: Deep Convolutional Neural Networks for Limit Order Books](https://arxiv.org/pdf/1808.03668.pdf)
+This paper only uses bid-ask prices and volumes to predict mid-price movement by applying deep learning techniques (CNN-LSTM), use the past 100 snapshots, while each snapshots contain 10 prices level's bid-ask prices and volumes.   
