@@ -14,4 +14,7 @@ The followings are some materials that I found useful. Some may be blogs written
 1. [Explanation of TRPO (Chinese)](https://www.zhihu.com/question/366605427/answer/1048153125)
 2. [Deepen your Understanding of PPO (Chinese)](https://zhuanlan.zhihu.com/p/614115887)
 3. [DeepLOB: Deep Convolutional Neural Networks for Limit Order Books](https://arxiv.org/pdf/1808.03668.pdf)
-This paper only uses bid-ask prices and volumes to predict mid-price movement by applying deep learning techniques (CNN-LSTM), use the past 100 snapshots, while each snapshots contain 10 prices level's bid-ask prices and volumes.   
+This paper only uses bid-ask prices and volumes to predict mid-price movement by applying deep learning techniques (CNN-LSTM), use the past 100 snapshots, while each snapshots contain 10 prices level's bid-ask prices and volumes. This paper let CNN to extract features, and use LSTM to summarize those features' temporal dependency.
+4. [Benchmark Dataset for Mid-Price Forecasting of Limit Order Book Data with Machine Learning Methods](https://arxiv.org/pdf/1705.03233.pdf), and [Modeling high-frequency limit order book dynamics with support vector machines](https://www.math.fsu.edu/~aluffi/archive/paper462.pdf). Those papers use hand-crafted features to train the model
+5. [Random Forest Regression for Time Series Predict](https://www.kaggle.com/code/pbizil/random-forest-regression-for-time-series-predict)
+   
