@@ -26,6 +26,9 @@ Images1 - 4 are results of Lasso, Ridge, Random Forest, and Gradient Boost respe
 <figcaption>Gradient Boost corretion</figcaption>
 <img src='GradientBoost.png' width='500'>
 
+### RL trading model based on factors
+The features used by RL trading model based on factors include predicted short, long returns, and their signs, together with bid-ask prices and volumes. The policy and value networks are 2 layers feed-forward neural networks. The agent can hold or short at most one share of asset. The trading model will take the previous 2500 datapoint to train, and trade for the next 500 datapoints. After 500 datapoints, the trading agent will be retrained twice in order to keep the model up-to-date while still maintaining efficiency. 
+
 ### Useful Materials
 The followings are some materials that I found useful. Some may be blogs written in Chinese but one can easily find an alternative in English. 
 1. [Explanation of TRPO (Chinese)](https://www.zhihu.com/question/366605427/answer/1048153125)
