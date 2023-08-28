@@ -16,7 +16,11 @@ There are 33 factors that are relative to future returns, however, one still nee
 3. The Random Forest method is the best, but takes way too much time. 
 4. Gradient is good, but not as good as ridge regression.
 
-![sample image][Lasso_correlation.png]
+Images1 - 4 are results of Lasso, Ridge, Random Forest, and Gradient Boost respectively
+![Lasso Regression Correlation](Lasso_correlation.png)
+![Ridge Regression Correlation](Ridge_correlation.png)
+![Random Forest correlation](RandomForest.png)
+![Gradient Boost correlation](Gradient Boost.png)
 
 ### Useful Materials
 The followings are some materials that I found useful. Some may be blogs written in Chinese but one can easily find an alternative in English. 
