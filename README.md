@@ -14,7 +14,13 @@ There are 33 factors that are relative to future returns, however, one still nee
 1. The OLS method is not good, even resulting negative correlation.
 2. Lasso improved the result a little bit, but still not ideal. Ridge regression, on the other hand, improves the prediction model to another level. 
 3. The Random Forest method is the best, but takes way too much time. 
-4. Gradient is good, but not as good as ridge regression. 
+4. Gradient is good, but not as good as ridge regression.
+
+Images1 - 4 are results of Lasso, Ridge, Random Forest, and Gradient Boost respectively
+![Lasso Regression Correlation](Lasso_correlation.png)
+![Ridge Regression Correlation](Ridge_correlation.png)
+![Random Forest correlation](RandomForest.png)
+![Gradient Boost correlation](GradientBoost.png)
 
 ### Useful Materials
 The followings are some materials that I found useful. Some may be blogs written in Chinese but one can easily find an alternative in English. 
